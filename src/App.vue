@@ -1,17 +1,12 @@
-<template> 
- <header>
-   <span class="texto-header">Home</span>
-   <span class="separador"> | </span>
-   <span class="texto-header">Editoras</span>
-   <span class="separador"> | </span>
-   <span class="texto-header">Categorias</span>
-   <span class="separador"> | </span>
-   <span class="texto-header">Autores</span>
-   <span class="separador"> | </span>
-   <span class="texto-header">Livros</span>
-</header>
-   <main>Main</main>
-   <footer>Rodapé</footer>
+<script setup>
+import HeaderComp from "@/components/template/HeaderComp.vue";
+import FooterComp from "@components/template/FooterComp.vue";
+</script>
+
+<template>
+  <HeaderComp />
+  <RouterView />
+  <footer>Rodapé</footer>
 </template>
 
 <style>
@@ -36,7 +31,12 @@ footer {
   padding-left: 2rem;
   color:azure;
 }
- main {
-   
- }
+
+header span {
+  padding: 0 20px;
+}
+
+main {
+  height: 70%;
+}
 </style>
