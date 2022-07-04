@@ -1,15 +1,15 @@
 <template>
   <header>
     <div class="menu-esquerdo">
-      <span> <Routerlink to="/">Home</Routerlink></span>
+      <span> <RouterLink to="/">Home</RouterLink></span>
       <span>|</span>
-      <span> <Routerlink to="/Categorias">Categorias</Routerlink></span>
+      <span> <RouterLink to="/Categorias">Categorias</RouterLink></span>
       <span>|</span>
-      <span> <Routerlink to="/Livros">Livros</Routerlink></span>
+      <span> <RouterLink to="/Livros">Livros</RouterLink></span>
       <span>|</span>
-      <span> <Routerlink to="/Autores">Autores</Routerlink></span>
+      <span> <RouterLink to="/Autores">Autores</RouterLink></span>
       <span>|</span>
-      <span> <Routerlink to="/Editoras">Editoras</Routerlink></span>
+      <span> <RouterLink to="/Editoras">Editoras</RouterLink></span>
     </div>
     <div class="menu-direito">
       <span>Sair</span>
